@@ -1,0 +1,104 @@
+.fetured_items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 95px 230px;
+}
+.fetured_items h2 {
+    font-family: "Lato";
+    font-size: 30px;
+    font-weight: 400;
+    color: rgba(34, 34, 34, 1);
+    padding: 6px;
+}
+.fetured_items_title {
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(159, 159, 159, 1);
+}
+.fetured_items_cards {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3,360px);
+    grid-template-rows: 581px;
+    margin: 48px 0px;
+}
+.fetured_items_card {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(248, 248, 248, 1);
+}
+.conteiner_element_img_card {
+    position: relative;
+}
+.conteiner_element_img_card img {
+    position: relative;
+}
+.fetured_items_card_button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    width: 139px;
+    height: 43px;
+    border: 1px solid white;
+    font-family: "Lato";
+    color: white;
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    padding: 11px 13px;
+    margin: 188px 110px;
+}
+.conteiner_element_img_card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0; 
+    bottom: 0; 
+    background-color: rgba(58, 56, 56, 0.86);
+    opacity: 0; 
+    transition: opacity 0.3s; 
+}
+.conteiner_element_img_card:hover::after {
+    opacity: 1;
+}
+.conteiner_element_img_card:hover .fetured_items_card_button {
+    opacity: 1; 
+    z-index: 1;
+}
+.fetured_items_text_conteiner {
+    font-family: "Lato";
+    padding: 25px 28px 20px 16px;
+}
+.card_title {
+    font-size: 13px;
+    padding-bottom: 12px;
+}
+.card_text {
+    font-size: 14px;
+    padding-bottom: 18px;
+    color: rgb(143 143 143);
+    font-weight: 300;
+}
+.card_price {
+    font-size: 16px;
+    color: rgba(241, 109, 127, 1);
+}
+.fetured_items_button button{
+    width: 212px;
+    padding: 15px 39px;
+    font-family: "Lato";
+    font-size: 16px;
+    color: rgba(242, 99, 118, 1);
+    border: 1px solid rgba(255, 106, 106, 1);
+    transition: opacity 0.3s; 
+}
+.fetured_items_button button:hover,button:focus  {
+    color: rgba(255, 255, 255, 1);
+    background: rgba(241, 109, 127, 1);
+    border: 1px solid rgba(255, 106, 106, 1);
+}

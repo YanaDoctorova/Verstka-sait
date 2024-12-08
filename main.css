@@ -1,0 +1,104 @@
+@import './style/reset.css';
+@import './style/header.css';
+@import './style/footer.css';
+@import './style/section/section_intro.css';
+@import './style/fonts.css';
+@import './style/section/section_pic_about.css';
+@import './style/section/section_fetured_items.css';
+@import './style/section/section_info_black.css';
+@import './style/section/section_feedback.css';
+
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.logo_container img {
+    height: 50px; /* Adjust as needed */
+}
+
+.container_header_element {
+    display: flex;
+    gap: 10px;
+}
+
+//.intro {
+  //  display: flex;
+    //justify-content: space-between;
+    //align-items: center;
+    //padding: 20px;
+// }
+
+.intro_img_container img {   
+max-width: 100%;
+    height: auto;
+}
+
+.intro_text_container {
+    flex-grow: 1;
+    padding: 0 20px;
+}
+
+.burger {
+    display: none; /* Initially hide the burger menu */
+}
+
+.burger.open {
+    display: block; /* Show when open */
+}
+
+.pic_about {
+//    display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  background-color: #fafafa;
+}
+
+.container_pic_about {
+  text-align: center;
+}
+
+.featured_items {
+    padding: 20px;
+}
+
+.featured_items_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.featured_items_card {
+    width: 30%; /* Adjust based on your design */
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.container_element_img_card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.info_black {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+}
+
+.info_black_card {
+    text-align: center;
+    width: 30%;
+}
+
+
+

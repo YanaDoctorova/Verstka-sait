@@ -1,0 +1,47 @@
+.pic_about {
+    display: grid;
+    margin: 65px 230px;
+    grid-template-columns: repeat(3,360px);
+    grid-template-rows: 260px;
+    gap: 30px;
+}
+.conteiner_pic_about {
+    display: flex;
+}
+.conteiner_pic_about:last-child {
+    grid-column: span 3;
+}
+.conteiner_pic_about:nth-child(1) {
+    background-image: url("../../img/section/sectrion_2/for_women.jpg");
+}
+.conteiner_pic_about:nth-child(2) {
+    background-image: url("../../img/section/sectrion_2/for_man.jpg");
+}
+.conteiner_pic_about:nth-child(3) {
+    background-image: url("../../img/section/sectrion_2/for_kids.jpg");
+}
+.conteiner_pic_about:nth-child(4) {
+    background-image: url("../../img/section/sectrion_2/accesories.jpg");
+    height: 180px;
+}
+.conteiner_pic_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 105px 103px;
+    font-family: "Lato";
+}
+.conteiner_pic_text.last{
+    padding: 65px 490px;
+}
+.conteiner_pic-one {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+.conteiner_pic-two {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(241, 109, 127, 1);
+}

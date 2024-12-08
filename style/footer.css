@@ -1,0 +1,36 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Lato";
+    width: auto;
+    height: 79px;
+    background-color: rgba(34, 34, 36, 1);
+    color: rgba(251, 251, 251, 1);
+    font-size: 16px;
+}
+footer p {
+    text-align: left;
+    width: 332px;
+}
+.footer_elements_right {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 148px;
+    height: 32px;
+}
+.footer_elements_right button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center; 
+    width: 31px;
+    height: 32px;
+    background-color: white;
+}
+.footer_elements_right button:hover {
+    background-color: rgba(241, 109, 127, 1);
+}
+.footer_elements_right img:hover {
+    filter: invert(1);
+}

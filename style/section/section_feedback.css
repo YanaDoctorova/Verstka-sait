@@ -1,0 +1,76 @@
+.feedback {
+    background-image: url("../../img/section/sectrion_5/background.png");
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Lato";
+    padding: 0px 230px;
+}
+.feedback_left_conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    width: 360px;
+    padding: 97px 0px 126px 0px;
+}
+.feedback_left_conteiner p {
+    text-align: center;
+    padding-top: 30px;
+}
+.feedback_left_conteiner p span{
+    font-weight: 300;
+}
+.subscribe-container {
+    width: 557px;
+    height: 142px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lato";
+    
+}
+.subscribe-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.subscribe-subtitle {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 32px;
+    text-align: center;
+}
+.subscribe-form {
+    width: 316px;
+    height: 49px;
+    display: flex;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.subscribe-input {
+    width: 100%;
+    height: 100%;
+    padding: 6px 22px ;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #666;
+    background-color: #e6e6e6;
+}
+.subscribe-button {
+    width: 40%;
+    height: 100%;
+    background-color: rgba(241, 109, 127, 1);
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+.subscribe-button:hover {
+    background-color: rgba(224, 92, 110, 1);
+}

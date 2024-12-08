@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-height: 75px;
+    background-color: rgba(34, 34, 34, 1);
+    padding: 19px 231px;
+}
+.logo_conteiner {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    width: 111px;
+}
+.conteiner_header_element {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    width: 168px;
+    transition: opacity 0.3s; 
+}
+.conteiner_header_element a:hover {
+    opacity: 0.6;
+}
+.logo_conteiner #logo_second:hover {
+    opacity: 0.6;
+}
